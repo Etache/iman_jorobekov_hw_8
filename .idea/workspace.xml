@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b91de9ce-322f-4707-aa46-0bba863997e5" name="Changes" comment="" />
+    <list default="true" id="e423ee40-4273-4df4-8949-9670dc113418" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gr_2_lesson_8_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/general/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/general/RPG_Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Berserk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/GameEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/HavingSuperAbility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Medic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/SuperAbility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kg/geektech/game/players/Warrior.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2JJnQVwJzULTei0FKmz6he8UtnO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JJlxFBDah9Dz5eSaRa2fejhT04" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,19 +52,58 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/gr_2_lesson_8_1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kg.geektech.game.players" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kg.geektech.game.general.Main" />
+      <module name="gr_2_lesson_8_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kg.geektech.game.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b91de9ce-322f-4707-aa46-0bba863997e5" name="Changes" comment="" />
-      <created>1671805038804</created>
+      <changelist id="e423ee40-4273-4df4-8949-9670dc113418" name="Changes" comment="" />
+      <created>1671804324176</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671805038804</updated>
+      <updated>1671804324176</updated>
+      <workItem from="1671804325347" duration="5756000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

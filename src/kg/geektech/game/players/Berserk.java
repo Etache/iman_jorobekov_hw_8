@@ -1,7 +1,8 @@
 package kg.geektech.game.players;
 
+import kg.geektech.game.general.RPG_Game;
+
 public class Berserk extends Hero {
-    private int savedDamage;
 
     public Berserk(int health, int damage, String name) {
         super(health, damage, name, SuperAbility.SAVE_DAMAGE_AND_REVERT);
@@ -9,10 +10,8 @@ public class Berserk extends Hero {
 
     @Override
     public void applySuperPower(Boss boss, Hero[] heroes) {
-
-    }
-
-    public void setSavedDamage(int savedDamage) {
-        this.savedDamage = savedDamage;
+        int randRevert = RPG_Game.random.nextInt(4);
+        int revertDamage = boss.getDamage() * (randRevert * 10) / 100;
+        this.setDamage(this.getDamage() + revertDamage);
     }
 }
